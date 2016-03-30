@@ -12,6 +12,9 @@ public class BaseTest {
 	public void start(){
 		
 		driver = new FirefoxDriver();
+		
+		
+		driver.get("");
 	}
 
 }
