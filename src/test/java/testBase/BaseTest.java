@@ -16,6 +16,7 @@ public class BaseTest {
 		driver = new FirefoxDriver();
 		
 		driver.get("");
+		System.out.println("Practice n Learning");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
