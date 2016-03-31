@@ -17,7 +17,8 @@ public class BaseTest {
 		
 		driver.get("");
 		System.out.println("Practice n Learning");
-		System.out.println("Its easy to understanding");
+	
+		System.out.println("Hamid Bhai");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
