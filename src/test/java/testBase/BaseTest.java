@@ -17,6 +17,9 @@ public class BaseTest {
 		
 		driver.get("");
 		System.out.println("Practice n Learning");
+		System.out.println("Practice n Learning by Rupon");
+
+		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
