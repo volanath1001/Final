@@ -17,8 +17,14 @@ public class BaseTest {
 		
 		driver.get("");
 		System.out.println("Practice n Learning");
+<<<<<<< HEAD
 	
 		System.out.println("Hamid Bhai");
+=======
+		System.out.println("Practice n Learning by Rupon");
+
+		
+>>>>>>> origin/master
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
