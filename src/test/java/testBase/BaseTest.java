@@ -25,6 +25,7 @@ public class BaseTest {
 		
 		System.out.println("HYYYYYYYYYYYY");
 
+		System.out.println("Should conflict");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
