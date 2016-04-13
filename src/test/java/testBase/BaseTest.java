@@ -21,6 +21,7 @@ public class BaseTest {
 	@BeforeMethod
 	public void start() throws MalformedURLException{
 		
+
 		if(browser.equals("ff")){
 			driver = new FirefoxDriver();
 		}else {
@@ -41,6 +42,7 @@ public class BaseTest {
 			}
 		driver.get("https://www.google.com/");
 				
+
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
