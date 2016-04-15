@@ -4,8 +4,8 @@
 	  <test name="Smoke">
 	    <classes>
 	       <class name="test.CreateAccount" />
-	       <class name="test.ManageAccount" />
-	       <class name="test.LogIn" />
+	       <class name="test.ManageAccountTest" />
+	       <class name="test.LogInTest" />
 	    </classes>
 	  </test>  
 </suite>  	
