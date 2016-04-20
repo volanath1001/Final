@@ -1,4 +1,5 @@
 pages\HomePageElements.class
 testBase\BaseTest.class
 testBase\DS.class
-test\CreateAccount.class
+test\ManageAccountTest.class
+test\LogInTest.class

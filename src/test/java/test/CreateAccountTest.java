@@ -3,7 +3,7 @@ package test;
 import org.testng.annotations.Test;
 import testBase.BaseTest;
 
-public class CreateAccount extends BaseTest{
+public class CreateAccountTest extends BaseTest{
 	
 	@Test
 	public void createAccount(){
