@@ -32,7 +32,7 @@ public class BaseTest {
 			//capabilities.setPlatform(Platform.WINDOWS);
 			//capabilities.setVersion("45.0.1");
 			
-			driver = new RemoteWebDriver(new URL("http://192.168.1.20:4444/wd/hub"), DesiredCapabilities.firefox());
+			driver = new RemoteWebDriver(new URL("http://192.168.0.10:4444/wd/hub"), DesiredCapabilities.firefox());
 			
 			//URL dh=new URL("http://localhost:4444/wd/hub");
 			//DesiredCapabilities dc=new DesiredCapabilities().firefox());
