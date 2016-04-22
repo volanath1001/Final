@@ -3,9 +3,10 @@
 <suite name="Smoke Test">
 	  <test name="Smoke">
 	    <classes>
-	       <class name="test.CreateAccount" />
-	       <class name="test.ManageAccountTest" />
-	       <class name="test.LogInTest" />
+	       		<class name="test.LogInTest"/>
+		      <class name="test.ManageAccountTest"/>
+		      <class name="test.BingTest"/>
+		      <class name="test.CreateAccountTest"/>
 	    </classes>
 	  </test>  
 </suite>  	

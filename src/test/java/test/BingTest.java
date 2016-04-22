@@ -6,9 +6,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BingTest {
+import testBase.BaseTest;
+
+public class BingTest extends BaseTest{
 	
-	WebDriver driver = null;
 	
 	@Test
 	public void b(){

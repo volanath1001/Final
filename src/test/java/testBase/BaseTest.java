@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 public class BaseTest {
 	
-	WebDriver driver = null;
+	public WebDriver driver = null;
 	String browser = "ff";
 
 	
