@@ -22,7 +22,7 @@ public class BaseTest {
 	public void start() throws MalformedURLException{
 		
 
-		if(browser.equals("ffd")){
+		if(browser.equals("ff")){
 			driver = new FirefoxDriver();
 		}else {
 			
