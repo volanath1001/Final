@@ -23,6 +23,8 @@ public class BingTest extends BaseTest{
 		Assert.assertTrue(!s.equals("Google"));
 		
 		//Assert.fail();
+		
+		System.out.println("HHHHFHJFJFjyf");
 	
 	}
 	
