@@ -1,5 +1,0 @@
-pages\HomePageElements.class
-testBase\BaseTest.class
-testBase\DS.class
-test\ManageAccountTest.class
-test\LogInTest.class

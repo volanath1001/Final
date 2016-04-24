@@ -8,7 +8,7 @@ public class CreateAccountTest extends BaseTest{
 	@Test
 	public void createAccount(){
 		System.out.println("createAccount");
-
+		driver.get("http://www.bn.com");
 		
 	}
 
