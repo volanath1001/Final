@@ -1,4 +1,4 @@
-package test;
+package test.p;
 
 import org.openqa.selenium.By;
 
