@@ -1,6 +1,7 @@
 package test.f.createAccount;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import org.testng.internal.BaseTestMethod;
@@ -20,6 +21,9 @@ public class CreateAccount_formValidation extends BaseTest{
 		//homePage.firstName_TB.s
 		
 		//waitUntilElementDisplayed(element)
+		JavascriptExecutor je = (JavascriptExecutor) driver;
+		je.executeScript("", "");
+		
 		System.out.println();
 		homePage.formFill("", "", "");
 		//homePage.firstName_TB.sendKeys("masud");

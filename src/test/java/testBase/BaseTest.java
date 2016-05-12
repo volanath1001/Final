@@ -11,6 +11,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.internal.BaseTestMethod;
@@ -62,24 +63,22 @@ public class BaseTest {
 	}
 	
 	public boolean waitUntilElementDisplayed(WebElement element){
-		boolean b = false;
+		/*boolean b = false;
 		try{
 			WebDriverWait wb = new WebDriverWait(driver, 30);
-			//b = wb.until(ExpectedConditions.textToBePresentInElementValue(element, ""));
-			b =  wb.until(ExpectedConditions.elementToBeClickable(element)).isEnabled();
-			//b = true;
+			b =  wb.until(ExpectedConditions.elementToBeClickable(element)).isDisplayed();
 		}catch(Throwable t){
 			t.printStackTrace();
-			//sssssssssss
 		}
-		return b;
+		return b;*/
+		return waitUntilElementDisplayed(element, 30);
 	}
 	
 	public boolean waitUntilElementDisplayed(WebElement element, int sec){
 		boolean b = false;
 		try{
 			WebDriverWait wb = new WebDriverWait(driver, sec);
-			b =  wb.until(ExpectedConditions.elementSelectionStateToBe(element, element.isDisplayed()));
+			b =  wb.until(ExpectedConditions.elementToBeClickable(element)).isDisplayed();
 		}catch(Throwable t){
 		}
 		return b;
@@ -105,10 +104,14 @@ public class BaseTest {
 	}
 	
 	public boolean clearAndFillText(WebElement element, String text){
+		clear(element);
+		return fillText(element,text);
+	}
+	
+	public boolean clear(WebElement element){
 		if(waitUntilElementDisplayed(element)){
 			element.clear();
-			element.sendKeys(text);
-		return true;
+			return true;
 		}else{
 			return false;
 		}
@@ -131,5 +134,13 @@ public class BaseTest {
 		}
 	}
 	
+	
+	public boolean verify(String arg, String arg1){
+		return arg.equals(arg1);
+	}
+	
+	public void assertEquals(Object actual, Object expected){
+		 Assert.assertEquals(actual, expected);
+	}
 
 }
