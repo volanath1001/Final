@@ -1,17 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="1" failed="1" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33254" started-at="2016-05-13T02:24:13Z" finished-at="2016-05-13T02:24:47Z">
+  <suite name="Default suite" duration-ms="68" started-at="2016-05-18T02:10:13Z" finished-at="2016-05-18T02:10:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33254" started-at="2016-05-13T02:24:13Z" finished-at="2016-05-13T02:24:47Z">
-      <class name="in.BB">
-        <test-method status="PASS" signature="t()[pri:0, instance:in.BB@4b9e13df]" name="t" duration-ms="33220" started-at="2016-05-12T22:24:14Z" finished-at="2016-05-12T22:24:47Z">
+    <test name="Default test" duration-ms="68" started-at="2016-05-18T02:10:13Z" finished-at="2016-05-18T02:10:13Z">
+      <class name="test.f.createAccount.DataPro">
+        <test-method status="PASS" signature="data(int, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.f.createAccount.DataPro@29ee9faa]" name="data" duration-ms="10" started-at="2016-05-17T22:10:13Z" data-provider="Masud" finished-at="2016-05-17T22:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Masud]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[masud@masud.masud]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(646) 675 - 4545]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- t -->
-      </class> <!-- in.BB -->
+        </test-method> <!-- data -->
+        <test-method status="PASS" signature="data(int, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.f.createAccount.DataPro@29ee9faa]" name="data" duration-ms="2" started-at="2016-05-17T22:10:13Z" data-provider="Masud" finished-at="2016-05-17T22:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rupon@Rupon.Rupon]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(347) 675 - 4545]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method status="PASS" signature="data(int, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.f.createAccount.DataPro@29ee9faa]" name="data" duration-ms="2" started-at="2016-05-17T22:10:13Z" data-provider="Masud" finished-at="2016-05-17T22:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hamid@hamid.hamid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(516) 675 - 4545]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method status="FAIL" signature="te1()[pri:0, instance:test.f.createAccount.DataPro@29ee9faa]" name="te1" duration-ms="4" started-at="2016-05-17T22:10:13Z" finished-at="2016-05-17T22:10:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at test.f.createAccount.DataPro.te1(DataPro.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:75)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:46)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- te1 -->
+        <test-method status="SKIP" signature="te2()[pri:0, instance:test.f.createAccount.DataPro@29ee9faa]" name="te2" duration-ms="0" started-at="2016-05-17T22:10:13Z" depends-on-methods="test.f.createAccount.DataPro.te1" finished-at="2016-05-17T22:10:13Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DataPro.te2()[pri:0, instance:test.f.createAccount.DataPro@29ee9faa] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DataPro.te2()[pri:0, instance:test.f.createAccount.DataPro@29ee9faa] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1040)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:75)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:46)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- te2 -->
+      </class> <!-- test.f.createAccount.DataPro -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
