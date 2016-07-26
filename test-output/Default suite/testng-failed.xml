@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.f.createAccount.DataPro">
+      <class name="v.Sn">
         <methods>
-          <include name="te2"/>
-          <include name="te1"/>
+          <include name="t"/>
         </methods>
-      </class> <!-- test.f.createAccount.DataPro -->
+      </class> <!-- v.Sn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

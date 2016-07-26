@@ -1,13 +1,12 @@
 package test.f.createAccount;
 
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
 public class DataPro {
 	
-	int a;
+	/*int a;
 	
 	@Test(enabled=false)
 	public void te(){
@@ -20,11 +19,11 @@ public class DataPro {
 		Assert.fail();
 	}
 	
-	@Test(dependsOnMethods="te1"/*,alwaysRun=true*/)
+	@Test(dependsOnMethods="te1",alwaysRun=true)
 	public void te2(){
 		System.out.println("Masud 2");
 	}
-	
+	*/
 	@Test(alwaysRun = true,dataProvider="Masud")
 	public void data(int s1, String s2, String s3, String s4){
 		System.out.println("Id = " +s1);
@@ -59,20 +58,7 @@ public class DataPro {
 		
 		return obj;
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		
 	}
 
