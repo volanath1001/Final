@@ -27,6 +27,7 @@ public class Retry implements IRetryAnalyzer {
 	    resultName = "FAILURE";
 	    if(status==3)
 	    resultName = "SKIP";
+	    //resultName = "SUCCESS";
     	return resultName;
     }
 

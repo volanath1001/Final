@@ -28,8 +28,9 @@ public class D {
 	public void t2() throws Throwable{
 		
 		System.out.println("t2");
-
-		throw new Exception("I gdrjyrfk");
+        
+		// create new exception as well as test fails
+		throw new Exception("I am creating Exception");
 		//Assert.assertEquals("s", "d");
 		//int i = 3/0;
 
